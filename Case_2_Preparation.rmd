@@ -60,7 +60,6 @@ may want to exclude tiny firms.
 
 *How many observations remain in the cross section?
 
-
 PART 2.
 
 Calculate PE-ratio (cf. Notes)
@@ -226,3 +225,4 @@ g.rf.sig = function(x, y) predict(fit.rf, data.frame(x1 = x, x2 = y, x3 = 0, x4 
 g.en.sig = function(x, y) 0.5*g.lr.sig(x, y) + 0.5*g.rf.sig(x, y)<br>
 ```
 
+# I am a fool
